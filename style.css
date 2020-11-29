@@ -1,0 +1,215 @@
+.image-cont{
+	
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	overflow: hidden;
+	transition: transform 4s;
+
+}
+
+.menu-item:hover .image-cont{
+	transform: scale(1.1);
+}
+
+.menu-item:hover  .overlay > .content{
+	background-color: rgba(255,255,255,0.9);
+}
+
+.shirts{
+	background-image: url(./shirts.jpg);
+}
+
+.trousers{
+	background-image: url(./trouser.jpg);
+}
+
+.mens{
+	background-image: url(./men.jpg);
+}
+
+.jackets{
+	background-image: url(./jacket.jpg);
+}
+
+.womens{
+	background-image: url(./women.jpg);
+}
+
+body{
+	padding: 40px;
+}
+
+.menu-item{
+	position: relative;
+	margin: 25px 15px;
+	overflow: hidden;
+}
+
+.overlay{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: rgba(255,255,255,0.6);
+	padding: 20px;
+	display: block;
+}
+
+.heading{
+	font-size: 30px;
+	font-weight: 1;
+	font-family: arial;
+}
+
+
+.shopnow{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: indigo;
+}
+
+
+.sfirst{
+	background-image: url(./men1.jpg);
+}
+
+
+.ssecond{
+	background-image: url(./men2.jpg);
+}
+
+.sthird{
+	background-image: url(./men3.jpg);
+}
+
+.sfourth{
+	background-image: url(./men4.jpg);
+}
+
+.sfifth{
+	background-image: url(./men5.jpg);
+}
+
+
+.tfirst{
+	background-image: url(./trouser1.jpg);
+}
+
+
+.tsecond{
+	background-image: url(./trouser2.jpg);
+}
+
+.tthird{
+	background-image: url(./trouser3.jpg);
+}
+
+.tfourth{
+	background-image: url(./trouser4.jpg);
+}
+
+.tfifth{
+	background-image: url(./trouser5.jpg);
+}
+
+
+
+.jfirst{
+	background-image: url(./jacket1.jpg);
+}
+
+
+.jsecond{
+	background-image: url(./jacket2.jpg);
+}
+
+.jthird{
+	background-image: url(./jacket3.jpg);
+}
+
+.jfourth{
+	background-image: url(./jacket4.jpg);
+	height: 600px;
+}
+
+.jfifth{
+	background-image: url(./jacket5.jpg);
+	height: 600px;
+}
+
+
+.mfirst{
+	background-image: url(./jacket1.jpg);
+}
+
+
+.msecond{
+	background-image: url(./men1.jpg);
+}
+
+.mthird{
+	background-image: url(./trouser1.jpg);
+}
+
+.mfourth{
+	background-image: url(./jacket5.jpg);
+	height: 600px;
+}
+
+.mfifth{
+	background-image: url(./men3.jpg);
+	height: 600px;
+}
+
+
+
+
+
+.wfirst{
+	background-image: url(./jacket3.jpg);
+}
+
+
+.wsecond{
+	background-image: url(./jacket2.jpg);
+}
+
+.wthird{
+	background-image: url(./trouser4.jpg);
+}
+
+.wfourth{
+	background-image: url(./trouser3.jpg);
+	height: 600px;
+}
+
+.wfifth{
+	background-image: url(./women.jpg);
+	height: 600px;
+}
+
+
+
+
